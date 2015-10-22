@@ -300,3 +300,7 @@ EditAction 1445509372738 TestPlanetExplorer.java 2443 8 37 7
 UnitTestCaseAction 1445509374255 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445509374255 TestPlanetExplorer FAIL
 EditAction 1445509385431 TestPlanetExplorer.java 2443 8 37 7
+UnitTestCaseAction 1445509387386 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445509387387 TestPlanetExplorer FAIL
+RefactoringAction 1445509417582 PlanetExplorer.java RENAME moveAround(String, int, int)=>String moveAround(String) METHOD
+EditAction 1445509429887 PlanetExplorer.java 3477 5 16 0

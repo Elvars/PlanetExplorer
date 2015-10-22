@@ -63,11 +63,11 @@ public class PlanetExplorer {
 			return str;
 			
 		case "f":
-			str = moveAround("f", x, y);
+			str = moveAround("f");
 			return str;
 			
 		case "b":
-			str = moveAround("b", x, y);
+			str = moveAround("b");
 			return str;
 			
 		default:
@@ -127,7 +127,7 @@ public class PlanetExplorer {
 
 	}
 	
-	public String moveAround(String moveDir, int x, int y)
+	public String moveAround(String moveDir)
 	{
 		
 		if(facingDir == "E")
