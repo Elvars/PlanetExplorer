@@ -112,3 +112,7 @@ UnitTestCaseAction 1445504878385 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445504878386 TestPlanetExplorer OK
 EditAction 1445504931481 PlanetExplorer.java 2292 4 5 0
 EditAction 1445505095847 PlanetExplorer.java 2449 4 5 0
+RefactoringAction 1445505120320 PlanetExplorer.java RENAME moveAround(String, String, int, int)=>void moveAround(String, int, int) METHOD
+RefactoringAction 1445505133341 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445505133341 PlanetExplorer.java ADD int y FIELD
+EditAction 1445505135294 PlanetExplorer.java 2437 4 5 0

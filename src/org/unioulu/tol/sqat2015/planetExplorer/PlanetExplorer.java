@@ -16,6 +16,8 @@ public class PlanetExplorer {
 	
 	public boolean hasLanded = false;
 	
+	int x, y = 0;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -46,7 +48,7 @@ public class PlanetExplorer {
 		switch(command)
 		{
 		case "":
-			moveAround("n", null, 0, 0);
+			moveAround(null, 0, 0);
 			hasLanded = true;
 			return "The explorer has landed";
 		
@@ -59,11 +61,11 @@ public class PlanetExplorer {
 			return "Turned right";
 			
 		case "f":
-			moveAround("", "f", 0, 0);
+			moveAround("f", 0, 0);
 			return "Moved forwards";
 			
 		case "b":
-			moveAround("", "b", 0, 0);
+			moveAround("b", 0, 0);
 			return "Moved backwards";
 			
 		}
@@ -88,7 +90,7 @@ public class PlanetExplorer {
 		}
 	}
 	
-	public void moveAround(String facingDir, String moveDir, int x, int y)
+	public void moveAround(String moveDir, int x, int y)
 	{
 		
 		System.out.println("Facing direction = " + facingDir + ", Position = " + x + "," + y );
