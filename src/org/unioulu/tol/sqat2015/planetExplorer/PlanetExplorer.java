@@ -45,6 +45,8 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		String str;
+		
 		switch(command)
 		{
 		case "":
@@ -53,8 +55,8 @@ public class PlanetExplorer {
 			return "The explorer has landed";
 		
 		case "l":
-			turn("l");
-			return "Turned left";
+			str = turn("l");
+			return str;
 			
 		case "r":
 			turn("r");
