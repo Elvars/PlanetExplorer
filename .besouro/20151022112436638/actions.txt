@@ -10,3 +10,13 @@ RefactoringAction 1445502936992 PlanetExplorer.java ADD ArrayList<Cell FIELD
 RefactoringAction 1445502949563 PlanetExplorer.java RENAME allCells=>ArrayList<int FIELD
 EditAction 1445503030970 PlanetExplorer.java 1567 2 2 0
 EditAction 1445503036998 PlanetExplorer.java 1558 2 2 0
+RefactoringAction 1445503073933 TestPlanetExplorer.java REMOVE test() METHOD
+RefactoringAction 1445503077450 TestPlanetExplorer.java ADD void t FIELD
+RefactoringAction 1445503078457 TestPlanetExplorer.java REMOVE t FIELD
+RefactoringAction 1445503082967 TestPlanetExplorer.java ADD void planet FIELD
+RefactoringAction 1445503088988 TestPlanetExplorer.java RENAME planet=>void planetCreator100x FIELD
+RefactoringAction 1445503089999 TestPlanetExplorer.java RENAME planetCreator100x=>void planetCreator100x100 FIELD
+RefactoringAction 1445503092012 TestPlanetExplorer.java RENAME planetCreator100x100=>void METHOD
+RefactoringAction 1445503117585 TestPlanetExplorer.java ADD PlanetExplorer explorer FIELD
+RefactoringAction 1445503121943 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+EditAction 1445503124382 PlanetExplorer.java 1599 2 3 0

@@ -24,6 +24,7 @@ public class PlanetExplorer {
 			allArrays.add(array);
 		}
 		
+		System.out.println(allArrays.size());
 	}
 	
 	public String executeCommand(String command){
