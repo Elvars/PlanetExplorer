@@ -9,3 +9,4 @@ RefactoringAction 1445502936991 PlanetExplorer.java ADD int FIELD
 RefactoringAction 1445502936992 PlanetExplorer.java ADD ArrayList<Cell FIELD
 RefactoringAction 1445502949563 PlanetExplorer.java RENAME allCells=>ArrayList<int FIELD
 EditAction 1445503030970 PlanetExplorer.java 1567 2 2 0
+EditAction 1445503036998 PlanetExplorer.java 1558 2 2 0

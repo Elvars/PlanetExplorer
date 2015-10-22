@@ -23,8 +23,6 @@ public class PlanetExplorer {
 			array = new int[x];
 			allArrays.add(array);
 		}
-			
-		
 		
 	}
 	
