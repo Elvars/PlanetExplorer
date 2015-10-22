@@ -47,12 +47,12 @@ public class PlanetExplorer {
 		switch(command)
 		{
 		case "":
-			moveAround(0, null);
+			moveAround("n", null);
 			hasLanded = true;
 			return "The explorer has landed";
 		
 		case "l":
-			moveAround(facingDir, null);
+			moveAround("l", null);
 			
 		}
 		
@@ -61,7 +61,7 @@ public class PlanetExplorer {
 		
 	}
 	
-	public void moveAround(int facingDir, String moveDir)
+	public void moveAround(String facingDir, String moveDir)
 	{
 		
 	}
