@@ -61,3 +61,17 @@ RefactoringAction 1445503961205 PlanetExplorer.java ADD String FIELD
 RefactoringAction 1445503962225 PlanetExplorer.java RENAME facingDe=>String FIELD
 RefactoringAction 1445503964745 PlanetExplorer.java RENAME facingD=>String FIELD
 EditAction 1445504061163 PlanetExplorer.java 1975 3 2 0
+CompilationAction 1445504061440 PlanetExplorer.java
+CompilationAction 1445504061440 PlanetExplorer.java
+RefactoringAction 1445504080704 PlanetExplorer.java RENAME moveAround(String, String, int, int)=>void moveAround(int, String, int, int) METHOD
+RefactoringAction 1445504150398 PlanetExplorer.java ADD int facingDir FIELD
+CompilationAction 1445504151543 PlanetExplorer.java
+CompilationAction 1445504151544 PlanetExplorer.java
+CompilationAction 1445504151712 PlanetExplorer.java
+CompilationAction 1445504158447 PlanetExplorer.java
+RefactoringAction 1445504173973 PlanetExplorer.java RENAME moveAround(int, String, int, int)=>void moveAround(int, String) METHOD
+RefactoringAction 1445504250372 TestPlanetExplorer.java ADD void planetCreate FIELD
+RefactoringAction 1445504252385 TestPlanetExplorer.java RENAME planetCreate=>void planetCreated FIELD
+RefactoringAction 1445504256900 TestPlanetExplorer.java RENAME planetCreated=>void planetCreatedExplorerLanded FIELD
+RefactoringAction 1445504260914 TestPlanetExplorer.java RENAME planetCreatedExplorerLanded=>void planetCreatedExplorerLandedTurnsLeft() METHOD
+EditAction 1445504298669 TestPlanetExplorer.java 763 3 6 1

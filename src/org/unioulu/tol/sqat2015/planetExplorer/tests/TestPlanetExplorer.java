@@ -26,4 +26,12 @@ public class TestPlanetExplorer {
 		
 		assertEquals("The explorer has landed", actualStr);
 	}
+	
+	@Test
+	public void planetCreatedExplorerLandedTurnsLeft()
+	{
+		explorer = new PlanetExplorer(100, 100, "");
+		
+		actualStr = explorer.executeCommand("l");
+	}
 }
