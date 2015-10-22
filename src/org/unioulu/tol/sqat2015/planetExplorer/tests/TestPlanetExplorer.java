@@ -103,6 +103,8 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("r");
 		
 		explorer.executeCommand("f");
+		explorer.executeCommand("f");
+		explorer.executeCommand("f");
 		actualStr = explorer.executeCommand("f");
 		
 		assertEquals("0,2, S", actualStr);
