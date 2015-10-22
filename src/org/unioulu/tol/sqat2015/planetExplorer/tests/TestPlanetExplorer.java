@@ -102,7 +102,7 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("f");
 		actualStr = explorer.executeCommand("b");
 		
-		assertEquals("1,0, S", actualStr);
+		assertEquals("0,0, S", actualStr);
 
 	}
 }
