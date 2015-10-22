@@ -33,5 +33,7 @@ public class TestPlanetExplorer {
 		explorer = new PlanetExplorer(100, 100, "");
 		
 		actualStr = explorer.executeCommand("l");
+		
+		assertEquals("n", actualStr);
 	}
 }
