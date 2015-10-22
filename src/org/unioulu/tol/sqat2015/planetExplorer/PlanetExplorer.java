@@ -12,7 +12,7 @@ public class PlanetExplorer {
 	public ArrayList<int[]> allArrays = new ArrayList<int[]>();
 	
 	public String[] facingDirections = {"N", "W", "E", "S"};
-	public int facingDir;
+	public String facingDir = "";
 	
 	public boolean hasLanded = false;
 	
@@ -52,6 +52,7 @@ public class PlanetExplorer {
 		
 		case "l":
 			moveAround("l", null, 0, 0);
+			return null;
 			
 		}
 		
@@ -60,8 +61,22 @@ public class PlanetExplorer {
 		
 	}
 	
+	public void turn(String dir)
+	{
+		switch(dir)
+		{
+		case "r":
+			
+		
+		case "l":
+			 
+			
+		}
+	}
+	
 	public void moveAround(String facingDir, String moveDir, int x, int y)
 	{
+		
 		System.out.println("Facing direction = " + facingDir + ", Position = " + x + "," + y );
 	}
 }

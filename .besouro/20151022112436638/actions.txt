@@ -88,3 +88,10 @@ UnitTestCaseAction 1445504466006 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445504466007 TestPlanetExplorer OK
 EditAction 1445504473923 PlanetExplorer.java 2059 3 4 0
 EditAction 1445504508797 TestPlanetExplorer.java 800 3 7 2
+UnitTestCaseAction 1445504511512 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445504511512 TestPlanetExplorer FAIL
+RefactoringAction 1445504641156 PlanetExplorer.java ADD void turn() METHOD
+RefactoringAction 1445504643176 PlanetExplorer.java RENAME turn()=>void turn(String) METHOD
+RefactoringAction 1445504743632 PlanetExplorer.java REMOVE facingDir FIELD
+RefactoringAction 1445504757670 PlanetExplorer.java ADD String facingDir FIELD
+EditAction 1445504765443 PlanetExplorer.java 2201 4 5 0
