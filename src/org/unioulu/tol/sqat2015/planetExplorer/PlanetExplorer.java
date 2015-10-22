@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 127
-// Finish time:
+// Finish time: 13:32
 public class PlanetExplorer {
 	
 	public int[] array;
@@ -47,39 +47,33 @@ public class PlanetExplorer {
 		
 		String str;
 		
-		for(int i = 0; i<command.length(); i++)
+		switch(command)
 		{
+		case "":
+			str = land();
+			hasLanded = true;
+			return str;
 		
-			switch(command.substring(i).toString())
-			{
-			case "":
-				str = land();
-				hasLanded = true;
-				return str;
+		case "l":
+			str = turn("l");
+			return str;
 			
-			case "l":
-				str = turn("l");
-				return str;
-				
-			case "r":
-				str = turn("r");
-				return str;
-				
-			case "f":
-				str = moveAround("f");
-				return str;
-				
-			case "b":
-				str = moveAround("b");
-				return str;
-				
-			default:
-				return "invalid command";
-				
-			}
+		case "r":
+			str = turn("r");
+			return str;
+			
+		case "f":
+			str = moveAround("f");
+			return str;
+			
+		case "b":
+			str = moveAround("b");
+			return str;
+			
+		default:
+			return "invalid command";
+			
 		}
-		
-	
 		
 	}
 	
