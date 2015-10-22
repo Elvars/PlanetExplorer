@@ -259,3 +259,6 @@ UnitTestSessionAction 1445508321723 TestPlanetExplorer FAIL
 EditAction 1445508326254 TestPlanetExplorer.java 2362 8 35 7
 RefactoringAction 1445508391034 TestPlanetExplorer.java RENAME planetCreatedExplorerLandedTurnsRightTwoTimesMovesForwardMovesBackward()=>void planetCreatedExplorerLandedTurnsRightTwoTimesMovesForwardTwoTimes() METHOD
 EditAction 1445508399000 TestPlanetExplorer.java 2357 8 35 7
+UnitTestCaseAction 1445508400969 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445508400969 TestPlanetExplorer FAIL
+EditAction 1445508610175 PlanetExplorer.java 3537 5 17 0

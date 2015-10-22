@@ -136,11 +136,11 @@ public class PlanetExplorer {
 		{
 			if(moveDir == "f")
 			{
-				x=+1;
+				x++;
 			}
 			else if(moveDir == "b")
 			{
-				x=-1;
+				x--;
 			}
 		}
 		
@@ -148,11 +148,11 @@ public class PlanetExplorer {
 		{
 			if(moveDir == "f")
 			{
-				x=-1;
+				x--;
 			}
 			else if(moveDir == "b")
 			{
-				x=+1;
+				x++;
 			}
 		}
 		
@@ -160,11 +160,11 @@ public class PlanetExplorer {
 		{
 			if(moveDir == "f")
 			{
-				y=+1;
+				y++;
 			}
 			else if(moveDir == "b")
 			{
-				y=-1;
+				y--;
 			}
 		}
 		
@@ -172,11 +172,11 @@ public class PlanetExplorer {
 		{
 			if(moveDir == "f")
 			{
-				y=-1;
+				y--;
 			}
 			else if(moveDir == "b")
 			{
-				y=+1;
+				y++;
 			}
 		}
 		
