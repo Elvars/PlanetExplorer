@@ -98,10 +98,19 @@ public class PlanetExplorer {
 		{
 		case "r":
 			i += 1;
+			if(i<3)
+			{
+				i = 3;
+			}
+			
 			facingDir = facingDirections[i];
 		
 		case "l":
 			i -= 1;
+			if(i>3)
+			{
+				i = 0;
+			}
 			facingDir = facingDirections[i];
 			
 		}
