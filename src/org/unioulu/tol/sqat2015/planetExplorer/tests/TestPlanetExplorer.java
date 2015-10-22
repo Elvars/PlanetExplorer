@@ -70,9 +70,7 @@ public class TestPlanetExplorer {
 		explorer = new PlanetExplorer(100, 100, "");
 		explorer.executeCommand("");
 		explorer.executeCommand("r");
-	
-		System.out.println(explorer.facingDir);
-		
+			
 		actualStr = explorer.executeCommand("f");
 	
 		
@@ -102,9 +100,10 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("r");
 		explorer.executeCommand("r");
 		
+		
 		explorer.executeCommand("f");
-		explorer.executeCommand("f");
-		explorer.executeCommand("f");
+		System.out.println(explorer.x);
+
 		actualStr = explorer.executeCommand("f");
 		
 		assertEquals("0,2, S", actualStr);
