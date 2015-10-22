@@ -52,7 +52,7 @@ public class PlanetExplorer {
 		
 		case "l":
 			turn("l");
-			return "Turned lef";
+			return "Turned left";
 			
 		}
 		
