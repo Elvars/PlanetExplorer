@@ -176,3 +176,12 @@ EditAction 1445506525449 TestPlanetExplorer.java 1361 5 17 4
 UnitTestCaseAction 1445506527040 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445506527041 TestPlanetExplorer FAIL
 EditAction 1445506530076 TestPlanetExplorer.java 1361 5 17 4
+UnitTestCaseAction 1445506531730 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445506531730 TestPlanetExplorer OK
+RefactoringAction 1445506619057 TestPlanetExplorer.java ADD void pla FIELD
+RefactoringAction 1445506627071 TestPlanetExplorer.java RENAME pla=>void planetCreatedExplo FIELD
+RefactoringAction 1445506631586 TestPlanetExplorer.java RENAME planetCreatedExplo=>void planetCreatedExplorerLandedTurnsRigh FIELD
+RefactoringAction 1445506632601 TestPlanetExplorer.java RENAME planetCreatedExplorerLandedTurnsRigh=>void planetCreatedExplorerLandedTurnsRight FIELD
+RefactoringAction 1445506636617 TestPlanetExplorer.java RENAME planetCreatedExplorerLandedTurnsRight=>void planetCreatedExplorerLandedTurnsRightMovesForward FIELD
+RefactoringAction 1445506639132 TestPlanetExplorer.java RENAME planetCreatedExplorerLandedTurnsRightMovesForward=>void planetCreatedExplorerLandedTurnsRightMovesForward() METHOD
+EditAction 1445506727880 TestPlanetExplorer.java 1652 6 22 5
