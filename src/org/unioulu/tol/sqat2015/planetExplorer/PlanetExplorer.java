@@ -63,11 +63,11 @@ public class PlanetExplorer {
 			return str;
 			
 		case "f":
-			str = moveAround("f", 0, 0);
+			str = moveAround(facingDir, x, y);
 			return str;
 			
 		case "b":
-			str = moveAround("b", 0, 0);
+			str = moveAround(facingDir, x, y);
 			return str;
 			
 		}
