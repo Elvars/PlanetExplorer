@@ -77,7 +77,7 @@ public class PlanetExplorer {
 		
 	}
 	
-	public void turn(String dir)
+	public String turn(String dir)
 	{
 		int i = 0;
 		
@@ -121,7 +121,8 @@ public class PlanetExplorer {
 			
 		}
 		
-		System.out.println("Facing direction = " + facingDir + ", Position = " + x + "," + y );
+		String str = x + y + facingDir;
+		return str;
 
 	}
 	
