@@ -99,7 +99,8 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("r");
 		explorer.executeCommand("r");
 		
-		actualStr = explorer.executeCommand("f");
+		explorer.executeCommand("f");
+		actualStr = explorer.executeCommand("b");
 		
 		assertEquals("1,0, S", actualStr);
 
