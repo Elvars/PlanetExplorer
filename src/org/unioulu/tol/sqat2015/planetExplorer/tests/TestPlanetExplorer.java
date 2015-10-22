@@ -24,7 +24,7 @@ public class TestPlanetExplorer {
 		
 		actualStr = explorer.executeCommand("");
 		
-		assertEquals("The explorer has landed", actualStr);
+		assertEquals("0,0, N", actualStr);
 	}
 	
 	@Test
