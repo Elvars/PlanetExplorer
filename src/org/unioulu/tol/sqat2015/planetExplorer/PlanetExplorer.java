@@ -50,7 +50,7 @@ public class PlanetExplorer {
 		for(int i = 0; i<command.length(); i++)
 		{
 		
-			switch(command.substring(i))
+			switch(command.substring(i).toString())
 			{
 			case "":
 				str = land();
@@ -79,7 +79,7 @@ public class PlanetExplorer {
 			}
 		}
 		
-		return null;
+	
 		
 	}
 	
