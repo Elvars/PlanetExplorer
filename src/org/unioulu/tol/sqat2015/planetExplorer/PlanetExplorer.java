@@ -48,7 +48,7 @@ public class PlanetExplorer {
 		switch(command)
 		{
 		case "":
-			moveAround(null, 0, 0);
+			land();
 			hasLanded = true;
 			return "The explorer has landed";
 		
@@ -92,6 +92,16 @@ public class PlanetExplorer {
 	
 	public void moveAround(String moveDir, int x, int y)
 	{
+		
+		System.out.println("Facing direction = " + facingDir + ", Position = " + x + "," + y );
+	}
+	
+	public void land()
+	{
+		x = 0;
+		y = 0;
+		
+		facingDir = "N";
 		
 		System.out.println("Facing direction = " + facingDir + ", Position = " + x + "," + y );
 	}
