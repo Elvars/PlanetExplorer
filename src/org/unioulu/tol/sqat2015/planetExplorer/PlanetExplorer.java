@@ -100,7 +100,7 @@ public class PlanetExplorer {
 			i += 1;
 			if(i>3)
 			{
-				i = 3;
+				i = 0;
 			}
 			
 			facingDir = facingDirections[i];
@@ -109,7 +109,7 @@ public class PlanetExplorer {
 			i -= 1;
 			if(i<0)
 			{
-				i = 0;
+				i = 3;
 			}
 			facingDir = facingDirections[i];
 			
