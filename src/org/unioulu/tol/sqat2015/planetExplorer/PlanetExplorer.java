@@ -104,6 +104,8 @@ public class PlanetExplorer {
 			}
 			
 			facingDir = facingDirections[i];
+			System.out.println("Facing direction = " + facingDir + ", Position = " + x + "," + y );
+
 		
 		case "l":
 			i -= 1;
@@ -112,6 +114,8 @@ public class PlanetExplorer {
 				i = 0;
 			}
 			facingDir = facingDirections[i];
+			System.out.println("Facing direction = " + facingDir + ", Position = " + x + "," + y );
+
 			
 		}
 	}
