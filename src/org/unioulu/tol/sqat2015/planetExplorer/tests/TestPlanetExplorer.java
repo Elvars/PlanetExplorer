@@ -12,6 +12,6 @@ public class TestPlanetExplorer {
 	@Test
 	public void planetCreator100x100()
 	{
-		
+		explorer = new PlanetExplorer(100,100,"");
 	}
 }

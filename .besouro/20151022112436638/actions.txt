@@ -21,3 +21,4 @@ RefactoringAction 1445503117585 TestPlanetExplorer.java ADD PlanetExplorer explo
 RefactoringAction 1445503121943 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
 EditAction 1445503124382 PlanetExplorer.java 1599 2 3 0
 EditAction 1445503126106 TestPlanetExplorer.java 312 1 0 0
+EditAction 1445503188160 TestPlanetExplorer.java 354 1 1 0
