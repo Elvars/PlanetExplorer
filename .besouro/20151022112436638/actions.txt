@@ -193,3 +193,9 @@ EditAction 1445507214296 PlanetExplorer.java 3222 5 17 0
 UnitTestCaseAction 1445507232228 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445507232228 TestPlanetExplorer FAIL
 EditAction 1445507309415 PlanetExplorer.java 3222 5 17 0
+UnitTestCaseAction 1445507312752 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445507312753 TestPlanetExplorer OK
+RefactoringAction 1445507331026 TestPlanetExplorer.java ADD void planetCreatedExplorerLandedTurnsRightMovesForward()/2 METHOD
+RefactoringAction 1445507343574 TestPlanetExplorer.java RENAME planetCreatedExplorerLandedTurnsRightMovesForward()/2=>void planetCreatedExplorerLandedTurnsRightTwoMovesForward() METHOD
+RefactoringAction 1445507345088 TestPlanetExplorer.java RENAME planetCreatedExplorerLandedTurnsRightTwoMovesForward()=>void planetCreatedExplorerLandedTurnsRightTwoTimesMovesForward() METHOD
+EditAction 1445507351280 TestPlanetExplorer.java 1984 7 28 6
