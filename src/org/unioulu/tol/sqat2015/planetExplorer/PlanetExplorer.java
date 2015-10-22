@@ -86,11 +86,11 @@ public class PlanetExplorer {
 		case "N":
 			i = 0;
 		case "W":
-			i = 1;
-		case "E":
-			i = 2;
-		case "S":
 			i = 3;
+		case "E":
+			i = 1;
+		case "S":
+			i = 2;
 		
 		}
 		
