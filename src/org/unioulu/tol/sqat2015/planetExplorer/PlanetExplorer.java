@@ -58,6 +58,14 @@ public class PlanetExplorer {
 			turn("r");
 			return "Turned right";
 			
+		case "f":
+			moveAround("", "f", 0, 0);
+			return "Moved forwards";
+			
+		case "b":
+			moveAround("", "b", 0, 0);
+			return "Moved backwards";
+			
 		}
 		
 		
