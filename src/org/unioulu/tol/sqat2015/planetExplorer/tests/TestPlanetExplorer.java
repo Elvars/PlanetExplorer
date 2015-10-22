@@ -73,7 +73,7 @@ public class TestPlanetExplorer {
 		
 		actualStr = explorer.executeCommand("f");
 		
-		assertEquals("0,1, E", actualStr);
+		assertEquals("1, 0, E", actualStr);
 
 	}
 	
@@ -87,7 +87,7 @@ public class TestPlanetExplorer {
 		
 		actualStr = explorer.executeCommand("f");
 		
-		assertEquals("1,0, S", actualStr);
+		assertEquals("0, 1, S", actualStr);
 
 	}
 	
