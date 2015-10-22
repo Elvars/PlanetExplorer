@@ -44,7 +44,7 @@ public class PlanetExplorer {
 		switch(command)
 		{
 		case "":
-			moveAround("N", null);
+			moveAround("N", null, 0, 0);
 			hasLanded = true;
 			return "The explorer has landed";
 			
@@ -56,7 +56,7 @@ public class PlanetExplorer {
 		
 	}
 	
-	public void moveAround(String facingDir, String moveDir)
+	public void moveAround(String facingDir, String moveDir, int x, int y)
 	{
 		
 	}

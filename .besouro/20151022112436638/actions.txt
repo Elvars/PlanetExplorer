@@ -53,3 +53,5 @@ UnitTestCaseAction 1445503735972 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445503735972 TestPlanetExplorer OK
 RefactoringAction 1445503766851 PlanetExplorer.java ADD boolean hasLanded FIELD
 EditAction 1445503793447 PlanetExplorer.java 1862 3 4 0
+RefactoringAction 1445503848521 PlanetExplorer.java RENAME moveAround(String, String)=>void moveAround(String, String, int, int) METHOD
+EditAction 1445503853624 PlanetExplorer.java 1882 3 4 0
