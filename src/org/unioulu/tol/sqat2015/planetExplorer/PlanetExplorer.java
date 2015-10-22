@@ -63,6 +63,6 @@ public class PlanetExplorer {
 	
 	public void moveAround(String facingDir, String moveDir, int x, int y)
 	{
-		System.out.println("Facing direction = " + facingDir + ", Position = " + x + " ," + y );
+		System.out.println("Facing direction = " + facingDir + ", Position = " + x + "," + y );
 	}
 }
