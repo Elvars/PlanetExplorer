@@ -1,0 +1,11 @@
+FileOpenedAction 1445502276933 PlanetExplorer.java 1342 2 1 0
+FileOpenedAction 1445502394497 SudokuVerifier.java 4647 8 38 0
+FileOpenedAction 1445502839368 Grid.java 391 1 2 0
+RefactoringAction 1445502884674 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1445502902267 PlanetExplorer.java REMOVE import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1445502904318 PlanetExplorer.java ADD int createGrid(int) METHOD
+RefactoringAction 1445502931964 PlanetExplorer.java REMOVE createGrid(int) METHOD
+RefactoringAction 1445502936991 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445502936992 PlanetExplorer.java ADD ArrayList<Cell FIELD
+RefactoringAction 1445502949563 PlanetExplorer.java RENAME allCells=>ArrayList<int FIELD
+EditAction 1445503030970 PlanetExplorer.java 1567 2 2 0
