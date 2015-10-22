@@ -14,4 +14,14 @@ public class TestPlanetExplorer {
 	{
 		explorer = new PlanetExplorer(100,100,"");
 	}
+	
+	
+	@Test
+	public void planetCreatedExplorerLands()
+	{
+		explorer = new PlanetExplorer(100, 100, "");
+		
+		explorer.executeCommand("");
+		
+	}
 }

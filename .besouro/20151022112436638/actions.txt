@@ -40,3 +40,4 @@ RefactoringAction 1445503532375 TestPlanetExplorer.java RENAME planetCreated=>vo
 RefactoringAction 1445503536388 TestPlanetExplorer.java RENAME planetCreatedExplorer=>void planetCreatedExplorerLands FIELD
 RefactoringAction 1445503544912 TestPlanetExplorer.java RENAME planetCreatedExplorerLands=>void planetCreatedExplorerLands() METHOD
 EditAction 1445503649747 PlanetExplorer.java 1801 3 4 0
+EditAction 1445503652443 TestPlanetExplorer.java 507 2 3 0
