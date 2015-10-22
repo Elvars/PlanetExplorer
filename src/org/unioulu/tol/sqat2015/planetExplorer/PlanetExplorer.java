@@ -85,12 +85,16 @@ public class PlanetExplorer {
 		{
 		case "N":
 			i = 0;
+			break;
 		case "W":
 			i = 3;
+			break;
 		case "E":
 			i = 1;
+			break;
 		case "S":
 			i = 2;
+			break;
 		
 		}
 		
@@ -104,6 +108,7 @@ public class PlanetExplorer {
 			}
 			
 			facingDir = facingDirections[i];
+			break;
 		
 		case "l":
 			i -= 1;
@@ -112,6 +117,7 @@ public class PlanetExplorer {
 				i = 3;
 			}
 			facingDir = facingDirections[i];
+			break;
 			
 		}
 		
