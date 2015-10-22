@@ -83,7 +83,7 @@ public class TestPlanetExplorer {
 		explorer = new PlanetExplorer(100, 100, "");
 		explorer.executeCommand("");
 		explorer.executeCommand("r");
-		//explorer.executeCommand("r");
+		explorer.executeCommand("r");
 		
 		actualStr = explorer.executeCommand("f");
 		
