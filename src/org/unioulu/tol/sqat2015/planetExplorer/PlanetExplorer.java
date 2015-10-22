@@ -155,10 +155,8 @@ public class PlanetExplorer {
 				x=+1;
 			}
 		}
-			
-			
-			
-		else if(facingDir == "S" || facingDir == "N")
+		
+		else if(facingDir == "N")
 		{
 			if(moveDir == "f")
 			{
@@ -167,6 +165,18 @@ public class PlanetExplorer {
 			else if(moveDir == "b")
 			{
 				y=-1;
+			}
+		}
+		
+		else if(facingDir == "W")
+		{
+			if(moveDir == "f")
+			{
+				y=-1;
+			}
+			else if(moveDir == "b")
+			{
+				y=+1;
 			}
 		}
 		
