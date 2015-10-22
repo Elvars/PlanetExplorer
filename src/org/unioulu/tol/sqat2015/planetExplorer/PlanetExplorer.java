@@ -54,7 +54,13 @@ public class PlanetExplorer {
 			turn("l");
 			return "Turned left";
 			
+		case "r":
+			turn("r");
+			return "Turned right";
+			
 		}
+		
+		
 		
 		return null;
 		
