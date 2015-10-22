@@ -75,10 +75,6 @@ public class PlanetExplorer {
 			
 		}
 		
-		
-		
-		
-		
 	}
 	
 	public String turn(String dir)

@@ -273,3 +273,6 @@ CompilationAction 1445508731806 PlanetExplorer.java
 EditAction 1445508763475 PlanetExplorer.java 3568 5 16 0
 RefactoringAction 1445508783831 PlanetExplorer.java RENAME moveAround(String, String, int, int)=>String moveAround(String, int, int) METHOD
 EditAction 1445508792955 PlanetExplorer.java 3528 5 16 0
+UnitTestCaseAction 1445508795153 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445508795153 TestPlanetExplorer FAIL
+EditAction 1445508886732 PlanetExplorer.java 3512 5 16 0
