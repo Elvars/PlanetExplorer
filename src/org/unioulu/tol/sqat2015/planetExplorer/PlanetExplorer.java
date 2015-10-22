@@ -11,7 +11,7 @@ public class PlanetExplorer {
 	public int[] array;
 	public ArrayList<int[]> allArrays = new ArrayList<int[]>();
 	
-	public String[] facingDirections = {"N", "W", "E", "S"};
+	public String[] facingDirections = {"N", "E", "S", "W"};
 	public String facingDir = "";
 	
 	public boolean hasLanded = false;
@@ -101,7 +101,7 @@ public class PlanetExplorer {
 			facingDir = facingDirections[i];
 		
 		case "l":
-			i +- 1;
+			i -= 1;
 			facingDir = facingDirections[i];
 			
 		}
