@@ -70,8 +70,11 @@ public class TestPlanetExplorer {
 		explorer = new PlanetExplorer(100, 100, "");
 		explorer.executeCommand("");
 		explorer.executeCommand("r");
+	
+		System.out.println(explorer.facingDir);
 		
 		actualStr = explorer.executeCommand("f");
+	
 		
 		assertEquals("1,0, E", actualStr);
 
