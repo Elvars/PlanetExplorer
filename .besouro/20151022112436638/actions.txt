@@ -20,3 +20,4 @@ RefactoringAction 1445503092012 TestPlanetExplorer.java RENAME planetCreator100x
 RefactoringAction 1445503117585 TestPlanetExplorer.java ADD PlanetExplorer explorer FIELD
 RefactoringAction 1445503121943 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
 EditAction 1445503124382 PlanetExplorer.java 1599 2 3 0
+EditAction 1445503126106 TestPlanetExplorer.java 312 1 0 0
