@@ -123,7 +123,7 @@ public class PlanetExplorer {
 			
 		}
 		
-		String str = x + y + facingDir;
+		String str = x + "," + y + ", " + facingDir;
 		return str;
 
 	}
