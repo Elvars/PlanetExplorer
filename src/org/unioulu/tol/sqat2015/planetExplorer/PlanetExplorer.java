@@ -134,11 +134,11 @@ public class PlanetExplorer {
 		{
 			if(moveDir == "f")
 			{
-				x--;
+				x++;
 			}
 			if(moveDir == "b")
 			{
-				x++;
+				x--;
 			}
 		}
 		
@@ -146,11 +146,11 @@ public class PlanetExplorer {
 		{
 			if(moveDir == "f")
 			{
-				x++;
+				x--;
 			}
 			if(moveDir == "b")
 			{
-				x--;
+				x++;
 			}
 		}
 		
