@@ -11,6 +11,8 @@ public class PlanetExplorer {
 	public int[] array;
 	public ArrayList<int[]> allArrays = new ArrayList<int[]>();
 	
+	public boolean hasLanded = false;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -43,6 +45,7 @@ public class PlanetExplorer {
 		{
 		case "":
 			moveAround("N", null);
+			hasLanded = true;
 			return "The explorer has landed";
 			
 			

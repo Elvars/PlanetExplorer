@@ -49,3 +49,7 @@ EditAction 1445503707826 TestPlanetExplorer.java 593 2 4 1
 UnitTestCaseAction 1445503709661 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445503709661 TestPlanetExplorer FAIL
 EditAction 1445503712545 TestPlanetExplorer.java 594 2 4 1
+UnitTestCaseAction 1445503735972 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445503735972 TestPlanetExplorer OK
+RefactoringAction 1445503766851 PlanetExplorer.java ADD boolean hasLanded FIELD
+EditAction 1445503793447 PlanetExplorer.java 1862 3 4 0
