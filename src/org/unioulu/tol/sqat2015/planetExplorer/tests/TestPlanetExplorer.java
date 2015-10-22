@@ -34,6 +34,6 @@ public class TestPlanetExplorer {
 		
 		actualStr = explorer.executeCommand("l");
 		
-		assertEquals("n", actualStr);
+		assertEquals("Turned left", actualStr);
 	}
 }

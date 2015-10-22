@@ -66,7 +66,7 @@ public class PlanetExplorer {
 		switch(dir)
 		{
 		case "r":
-			facingDir = facingDirections[]
+			//facingDir = facingDirections[]
 		
 		case "l":
 			 
