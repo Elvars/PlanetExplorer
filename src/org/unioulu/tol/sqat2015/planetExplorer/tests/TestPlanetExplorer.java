@@ -38,4 +38,16 @@ public class TestPlanetExplorer {
 		
 		assertEquals("0,0, W", actualStr);
 	}
+	
+	@Test
+	public void planetCreatedExplorerLandedTurnsRight()
+	{
+		explorer = new PlanetExplorer(100, 100, "");
+		
+		explorer.executeCommand("");
+		
+		actualStr = explorer.executeCommand("r");
+		
+		assertEquals("0,0, E", actualStr);
+	}
 }
