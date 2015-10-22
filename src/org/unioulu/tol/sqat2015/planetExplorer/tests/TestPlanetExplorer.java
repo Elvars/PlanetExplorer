@@ -8,6 +8,7 @@ import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 public class TestPlanetExplorer {
 
 	PlanetExplorer explorer;
+	String actualStr;
 	
 	@Test
 	public void planetCreator100x100()
@@ -21,7 +22,8 @@ public class TestPlanetExplorer {
 	{
 		explorer = new PlanetExplorer(100, 100, "");
 		
-		explorer.executeCommand("");
+		actualStr = explorer.executeCommand("");
 		
+		assertEquals("The explorer has landed", actualStr);
 	}
 }
