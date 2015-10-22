@@ -16,7 +16,7 @@ public class PlanetExplorer {
 	
 	public boolean hasLanded = false;
 	
-	int x, y = 0;
+	public int x, y = 0;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
