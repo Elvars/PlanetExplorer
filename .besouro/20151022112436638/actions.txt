@@ -190,3 +190,6 @@ RefactoringAction 1445506814021 PlanetExplorer.java RENAME moveAround(String, in
 EditAction 1445506831043 PlanetExplorer.java 2981 5 16 0
 EditAction 1445507186291 PlanetExplorer.java 3149 5 17 0
 EditAction 1445507214296 PlanetExplorer.java 3222 5 17 0
+UnitTestCaseAction 1445507232228 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445507232228 TestPlanetExplorer FAIL
+EditAction 1445507309415 PlanetExplorer.java 3222 5 17 0
