@@ -22,3 +22,14 @@ RefactoringAction 1445503121943 TestPlanetExplorer.java ADD import org.unioulu.t
 EditAction 1445503124382 PlanetExplorer.java 1599 2 3 0
 EditAction 1445503126106 TestPlanetExplorer.java 312 1 0 0
 EditAction 1445503188160 TestPlanetExplorer.java 354 1 1 0
+UnitTestCaseAction 1445503193139 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1445503193141 TestBowlingScoreCalculator OK
+UnitTestCaseAction 1445503218385 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445503218387 TestPlanetExplorer OK
+RefactoringAction 1445503445078 PlanetExplorer.java ADD void moveAround FIELD
+RefactoringAction 1445503446597 PlanetExplorer.java RENAME moveAround=>void moveAround() METHOD
+RefactoringAction 1445503458648 PlanetExplorer.java RENAME moveAround()=>void moveAround(String) METHOD
+RefactoringAction 1445503491742 PlanetExplorer.java RENAME moveAround(String)=>void moveAround() METHOD
+RefactoringAction 1445503496262 PlanetExplorer.java RENAME moveAround()=>void moveAround(String) METHOD
+RefactoringAction 1445503503274 PlanetExplorer.java RENAME moveAround(String)=>void moveAround(String, String) METHOD
+EditAction 1445503510592 PlanetExplorer.java 1753 3 4 0

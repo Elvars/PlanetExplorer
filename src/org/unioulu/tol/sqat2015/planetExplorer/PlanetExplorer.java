@@ -39,6 +39,21 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		switch(command)
+		{
+		case "":
+			return null;
+			
+			
+		}
+		
 		return null;
+		
+		
+	}
+	
+	public void moveAround(String facingDir, String moveDir)
+	{
+		
 	}
 }
