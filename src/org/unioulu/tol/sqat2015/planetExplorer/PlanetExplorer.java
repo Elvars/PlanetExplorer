@@ -156,7 +156,7 @@ public class PlanetExplorer {
 			}
 		}
 		
-		else if(facingDir == "N")
+		else if(facingDir == "S")
 		{
 			if(moveDir == "f")
 			{
@@ -168,7 +168,7 @@ public class PlanetExplorer {
 			}
 		}
 		
-		else if(facingDir == "S")
+		else if(facingDir == "N")
 		{
 			if(moveDir == "f")
 			{
