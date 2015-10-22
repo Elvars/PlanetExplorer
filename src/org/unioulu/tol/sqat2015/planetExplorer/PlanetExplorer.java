@@ -118,6 +118,7 @@ public class PlanetExplorer {
 			{
 				i = 3;
 			}
+			
 			facingDir = facingDirections[i];
 			break;
 			
@@ -130,6 +131,23 @@ public class PlanetExplorer {
 	
 	public String moveAround(String facingDir, String moveDir, int x, int y)
 	{
+		
+		if(facingDir == "E" || facingDir == "W")
+		{
+			if(moveDir == "f")
+			{
+				x=+1;
+			}
+			else
+			{
+				x=-1;
+			}
+		}
+		else
+		{
+			
+		}
+		
 		
 		String str = x + "," + y + ", " + facingDir;
 		return str;
