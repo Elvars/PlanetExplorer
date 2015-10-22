@@ -218,3 +218,4 @@ EditAction 1445507461461 TestPlanetExplorer.java 2362 8 35 7
 UnitTestCaseAction 1445507464277 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445507464278 TestPlanetExplorer.planetCreatedExplorerLandedTurnsRightTwoTimesMovesForwardMovesBackward FAIL
 EditAction 1445507604379 TestPlanetExplorer.java 2364 8 35 7
+EditAction 1445507729991 PlanetExplorer.java 3301 5 17 0

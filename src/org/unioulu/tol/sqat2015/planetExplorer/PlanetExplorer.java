@@ -136,22 +136,22 @@ public class PlanetExplorer {
 		{
 			if(moveDir == "f")
 			{
-				y=+1;
+				x=+1;
 			}
-			else
+			else if(moveDir == "b")
 			{
-				y=-1;
+				x=-1;
 			}
 		}
-		else
+		else if(facingDir == "S" || facingDir == "N")
 		{
 			if(moveDir == "f")
 			{
-				x=+1;
+				y=+1;
 			}
-			else
+			else if(moveDir == "b")
 			{
-				x=-1;
+				y=-1;
 			}
 		}
 		
