@@ -95,3 +95,4 @@ RefactoringAction 1445504643176 PlanetExplorer.java RENAME turn()=>void turn(Str
 RefactoringAction 1445504743632 PlanetExplorer.java REMOVE facingDir FIELD
 RefactoringAction 1445504757670 PlanetExplorer.java ADD String facingDir FIELD
 EditAction 1445504765443 PlanetExplorer.java 2201 4 5 0
+EditAction 1445504840953 PlanetExplorer.java 2221 4 4 0

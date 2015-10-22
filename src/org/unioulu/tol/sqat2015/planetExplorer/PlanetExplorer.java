@@ -51,8 +51,8 @@ public class PlanetExplorer {
 			return "The explorer has landed";
 		
 		case "l":
-			moveAround("l", null, 0, 0);
-			return null;
+			turn("l");
+			return "Turned lef";
 			
 		}
 		
@@ -66,7 +66,7 @@ public class PlanetExplorer {
 		switch(dir)
 		{
 		case "r":
-			
+			facingDir = facingDirections[]
 		
 		case "l":
 			 
