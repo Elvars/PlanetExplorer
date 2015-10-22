@@ -79,3 +79,5 @@ EditAction 1445504302125 PlanetExplorer.java 1988 3 4 0
 RefactoringAction 1445504315568 PlanetExplorer.java RENAME moveAround(int, String)=>void moveAround() METHOD
 RefactoringAction 1445504318087 PlanetExplorer.java RENAME moveAround()=>void moveAround(String, String) METHOD
 EditAction 1445504329295 PlanetExplorer.java 1987 3 4 0
+RefactoringAction 1445504414882 PlanetExplorer.java RENAME moveAround(String, String)=>void moveAround(String, String, int, int) METHOD
+EditAction 1445504454141 PlanetExplorer.java 2101 3 5 0
