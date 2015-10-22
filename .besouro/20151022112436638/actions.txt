@@ -43,3 +43,6 @@ EditAction 1445503649747 PlanetExplorer.java 1801 3 4 0
 EditAction 1445503652443 TestPlanetExplorer.java 507 2 3 0
 RefactoringAction 1445503662086 TestPlanetExplorer.java ADD String actualStr FIELD
 EditAction 1445503694202 TestPlanetExplorer.java 594 2 4 1
+UnitTestCaseAction 1445503697457 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445503697458 TestPlanetExplorer OK
+EditAction 1445503707826 TestPlanetExplorer.java 593 2 4 1
