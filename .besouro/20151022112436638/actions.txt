@@ -199,3 +199,4 @@ RefactoringAction 1445507331026 TestPlanetExplorer.java ADD void planetCreatedEx
 RefactoringAction 1445507343574 TestPlanetExplorer.java RENAME planetCreatedExplorerLandedTurnsRightMovesForward()/2=>void planetCreatedExplorerLandedTurnsRightTwoMovesForward() METHOD
 RefactoringAction 1445507345088 TestPlanetExplorer.java RENAME planetCreatedExplorerLandedTurnsRightTwoMovesForward()=>void planetCreatedExplorerLandedTurnsRightTwoTimesMovesForward() METHOD
 EditAction 1445507351280 TestPlanetExplorer.java 1984 7 28 6
+EditAction 1445507357009 TestPlanetExplorer.java 1986 7 27 6
