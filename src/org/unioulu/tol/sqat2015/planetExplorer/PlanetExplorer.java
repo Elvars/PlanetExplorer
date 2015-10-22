@@ -70,6 +70,9 @@ public class PlanetExplorer {
 			str = moveAround(facingDir, "b", x, y);
 			return str;
 			
+		default:
+			return "invalid command";
+			
 		}
 		
 		
