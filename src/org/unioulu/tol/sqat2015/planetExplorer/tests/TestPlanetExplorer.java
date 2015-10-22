@@ -92,7 +92,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void planetCreatedExplorerLandedTurnsRightTwoTimesMovesForwardMovesBackward()
+	public void planetCreatedExplorerLandedTurnsRightTwoTimesMovesForwardTwoTimes()
 	{
 		explorer = new PlanetExplorer(100, 100, "");
 		explorer.executeCommand("");
@@ -100,9 +100,9 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("r");
 		
 		explorer.executeCommand("f");
-		actualStr = explorer.executeCommand("b");
+		actualStr = explorer.executeCommand("f");
 		
-		assertEquals("0,0, S", actualStr);
+		assertEquals("0,2, S", actualStr);
 
 	}
 }
