@@ -79,6 +79,21 @@ public class PlanetExplorer {
 	
 	public void turn(String dir)
 	{
+		int i = 0;
+		
+		switch(facingDir)
+		{
+		case "N":
+			i = 0;
+		case "W":
+			i = 1;
+		case "E":
+			i = 2;
+		case "S":
+			i = 3;
+		
+		}
+		
 		switch(dir)
 		{
 		case "r":

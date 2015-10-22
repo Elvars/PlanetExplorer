@@ -118,3 +118,6 @@ RefactoringAction 1445505133341 PlanetExplorer.java ADD int y FIELD
 EditAction 1445505135294 PlanetExplorer.java 2437 4 5 0
 RefactoringAction 1445505167452 PlanetExplorer.java ADD void land() METHOD
 EditAction 1445505240246 PlanetExplorer.java 2592 5 9 0
+UnitTestCaseAction 1445505249918 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445505249919 TestPlanetExplorer OK
+EditAction 1445505391853 PlanetExplorer.java 2745 5 11 0
