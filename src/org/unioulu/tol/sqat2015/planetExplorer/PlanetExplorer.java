@@ -47,32 +47,36 @@ public class PlanetExplorer {
 		
 		String str;
 		
-		switch(command)
+		for(int i = 0; i<command.length(); i++)
 		{
-		case "":
-			str = land();
-			hasLanded = true;
-			return str;
 		
-		case "l":
-			str = turn("l");
-			return str;
+			switch(command.charAt(i))
+			{
+			case "":
+				str = land();
+				hasLanded = true;
+				return str;
 			
-		case "r":
-			str = turn("r");
-			return str;
-			
-		case "f":
-			str = moveAround("f");
-			return str;
-			
-		case "b":
-			str = moveAround("b");
-			return str;
-			
-		default:
-			return "invalid command";
-			
+			case "l":
+				str = turn("l");
+				return str;
+				
+			case "r":
+				str = turn("r");
+				return str;
+				
+			case "f":
+				str = moveAround("f");
+				return str;
+				
+			case "b":
+				str = moveAround("b");
+				return str;
+				
+			default:
+				return "invalid command";
+				
+			}
 		}
 		
 	}
