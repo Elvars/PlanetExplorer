@@ -145,7 +145,14 @@ public class PlanetExplorer {
 		}
 		else
 		{
-			
+			if(moveDir == "f")
+			{
+				y=+1;
+			}
+			else
+			{
+				y=-1;
+			}
 		}
 		
 		
