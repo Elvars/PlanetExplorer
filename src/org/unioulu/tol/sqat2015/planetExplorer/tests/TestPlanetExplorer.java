@@ -61,6 +61,6 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("r");
 		actualStr = explorer.executeCommand("r");
 		
-		assertEquals("0,0, E", actualStr);
+		assertEquals("0,0, S", actualStr);
 	}
 }
