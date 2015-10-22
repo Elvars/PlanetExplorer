@@ -136,7 +136,7 @@ public class PlanetExplorer {
 			{
 				x++;
 			}
-			else if(moveDir == "b")
+			if(moveDir == "b")
 			{
 				x--;
 			}
@@ -148,7 +148,7 @@ public class PlanetExplorer {
 			{
 				x--;
 			}
-			else if(moveDir == "b")
+			if(moveDir == "b")
 			{
 				x++;
 			}
@@ -160,7 +160,7 @@ public class PlanetExplorer {
 			{
 				y++;
 			}
-			else if(moveDir == "b")
+			if(moveDir == "b")
 			{
 				y--;
 			}
@@ -172,7 +172,7 @@ public class PlanetExplorer {
 			{
 				y--;
 			}
-			else if(moveDir == "b")
+			if(moveDir == "b")
 			{
 				y++;
 			}
