@@ -107,4 +107,20 @@ public class TestPlanetExplorer {
 		assertEquals("0,2, S", actualStr);
 
 	}
+	
+	@Test
+	public void planetCreatedExplorerLandedTurnsRightTwoTimesMovesForwardMovesBackwards()
+	{
+		explorer = new PlanetExplorer(100, 100, "");
+		explorer.executeCommand("");
+		explorer.executeCommand("r");
+		explorer.executeCommand("r");
+		
+		
+		explorer.executeCommand("f");
+		actualStr = explorer.executeCommand("f");
+		
+		assertEquals("0,2, S", actualStr);
+
+	}
 }
