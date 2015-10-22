@@ -33,3 +33,10 @@ RefactoringAction 1445503491742 PlanetExplorer.java RENAME moveAround(String)=>v
 RefactoringAction 1445503496262 PlanetExplorer.java RENAME moveAround()=>void moveAround(String) METHOD
 RefactoringAction 1445503503274 PlanetExplorer.java RENAME moveAround(String)=>void moveAround(String, String) METHOD
 EditAction 1445503510592 PlanetExplorer.java 1753 3 4 0
+RefactoringAction 1445503521338 TestPlanetExplorer.java ADD publiv vo FIELD
+RefactoringAction 1445503524351 TestPlanetExplorer.java RENAME vo=>void planet FIELD
+RefactoringAction 1445503527363 TestPlanetExplorer.java RENAME planet=>void planetCreated FIELD
+RefactoringAction 1445503532375 TestPlanetExplorer.java RENAME planetCreated=>void planetCreatedExplorer FIELD
+RefactoringAction 1445503536388 TestPlanetExplorer.java RENAME planetCreatedExplorer=>void planetCreatedExplorerLands FIELD
+RefactoringAction 1445503544912 TestPlanetExplorer.java RENAME planetCreatedExplorerLands=>void planetCreatedExplorerLands() METHOD
+EditAction 1445503649747 PlanetExplorer.java 1801 3 4 0

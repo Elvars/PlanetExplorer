@@ -42,7 +42,8 @@ public class PlanetExplorer {
 		switch(command)
 		{
 		case "":
-			return null;
+			moveAround("N", null);
+			return "The explorer has landed";
 			
 			
 		}
