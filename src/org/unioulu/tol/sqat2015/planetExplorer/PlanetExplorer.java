@@ -128,19 +128,21 @@ public class PlanetExplorer {
 
 	}
 	
-	public void moveAround(String moveDir, int x, int y)
+	public String moveAround(String moveDir, int x, int y)
 	{
 		
-		System.out.println("Facing direction = " + facingDir + ", Position = " + x + "," + y );
+		String str = x + "," + y + ", " + facingDir;
+		return str;
 	}
 	
-	public void land()
+	public String land()
 	{
 		x = 0;
 		y = 0;
 		
 		facingDir = "N";
 		
-		System.out.println("Facing direction = " + facingDir + ", Position = " + x + "," + y );
+		String str = x + "," + y + ", " + facingDir;
+		return str;
 	}
 }
