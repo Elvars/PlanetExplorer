@@ -55,3 +55,9 @@ RefactoringAction 1445503766851 PlanetExplorer.java ADD boolean hasLanded FIELD
 EditAction 1445503793447 PlanetExplorer.java 1862 3 4 0
 RefactoringAction 1445503848521 PlanetExplorer.java RENAME moveAround(String, String)=>void moveAround(String, String, int, int) METHOD
 EditAction 1445503853624 PlanetExplorer.java 1882 3 4 0
+UnitTestCaseAction 1445503879581 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445503879582 TestPlanetExplorer OK
+RefactoringAction 1445503961205 PlanetExplorer.java ADD String FIELD
+RefactoringAction 1445503962225 PlanetExplorer.java RENAME facingDe=>String FIELD
+RefactoringAction 1445503964745 PlanetExplorer.java RENAME facingD=>String FIELD
+EditAction 1445504061163 PlanetExplorer.java 1975 3 2 0

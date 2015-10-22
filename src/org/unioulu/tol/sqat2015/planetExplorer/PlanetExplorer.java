@@ -11,6 +11,8 @@ public class PlanetExplorer {
 	public int[] array;
 	public ArrayList<int[]> allArrays = new ArrayList<int[]>();
 	
+	public String[] facingDirections = {"N", "W", "E", "S"};
+	
 	public boolean hasLanded = false;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -47,7 +49,9 @@ public class PlanetExplorer {
 			moveAround("N", null, 0, 0);
 			hasLanded = true;
 			return "The explorer has landed";
-			
+		
+		case "l":
+			moveAround("")
 			
 		}
 		
