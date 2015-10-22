@@ -97,10 +97,12 @@ public class PlanetExplorer {
 		switch(dir)
 		{
 		case "r":
-			//facingDir = facingDirections[]
+			i += 1;
+			facingDir = facingDirections[i];
 		
 		case "l":
-			 
+			i +- 1;
+			facingDir = facingDirections[i];
 			
 		}
 	}
