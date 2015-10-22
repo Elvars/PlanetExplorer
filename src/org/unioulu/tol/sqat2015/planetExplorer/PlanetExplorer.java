@@ -50,25 +50,25 @@ public class PlanetExplorer {
 		switch(command)
 		{
 		case "":
-			land();
+			str = land();
 			hasLanded = true;
-			return "The explorer has landed";
+			return str;
 		
 		case "l":
 			str = turn("l");
 			return str;
 			
 		case "r":
-			turn("r");
-			return "Turned right";
+			str = turn("r");
+			return str;
 			
 		case "f":
-			moveAround("f", 0, 0);
-			return "Moved forwards";
+			str = moveAround("f", 0, 0);
+			return str;
 			
 		case "b":
-			moveAround("b", 0, 0);
-			return "Moved backwards";
+			str = moveAround("b", 0, 0);
+			return str;
 			
 		}
 		
