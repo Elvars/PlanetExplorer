@@ -132,7 +132,7 @@ public class PlanetExplorer {
 	public String moveAround(String facingDir, String moveDir, int x, int y)
 	{
 		
-		if(facingDir == "E" || facingDir == "W")
+		if(facingDir == "E")
 		{
 			if(moveDir == "f")
 			{
@@ -143,6 +143,21 @@ public class PlanetExplorer {
 				x=-1;
 			}
 		}
+		
+		else if(facingDir == "W")
+		{
+			if(moveDir == "f")
+			{
+				x=-1;
+			}
+			else if(moveDir == "b")
+			{
+				x=+1;
+			}
+		}
+			
+			
+			
 		else if(facingDir == "S" || facingDir == "N")
 		{
 			if(moveDir == "f")
