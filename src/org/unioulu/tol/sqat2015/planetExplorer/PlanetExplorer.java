@@ -98,7 +98,7 @@ public class PlanetExplorer {
 		{
 		case "r":
 			i += 1;
-			if(i<3)
+			if(i<0)
 			{
 				i = 3;
 			}
